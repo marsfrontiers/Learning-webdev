@@ -1,0 +1,16 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+.box > p{    /* using child in which div(.box)is parent and p is it's direct descendant or child*/
+    color: firebrick;
+}
+.box li{  /* descendant selector  */
+    color: blue;
+}
+li.done{  /*Chaining selector*/
+    color: seagreen;
+}
+ul p.done{  /*combination chaining selector*/
+    font-size: 0.5rem;
+}
