@@ -1,0 +1,25 @@
+<!-- views/create.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create New Post</h1>
+        <form action="/create" method="post">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content" rows="4" cols="50"></textarea><br>
+            <button type="submit">Create Post</button>
+        </form>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
+
